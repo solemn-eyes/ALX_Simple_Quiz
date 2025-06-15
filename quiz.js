@@ -20,7 +20,7 @@ if (quiz) {
 // Comparing user's answer with the correct answer
 if (userAnswer === correctAnswer) {
     console.log("Correct! Well done");
-    textContent.feedback = "Correct! Well done";
+    textContent.feedback = "Correct! Well done.";
 } else {
         console.log("That's incorrect. Try again!");
         textContent.feedback = "That's incorrect. Try again!";
